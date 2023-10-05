@@ -60,7 +60,8 @@ module.exports = {
     plugins: [
         new webpack.BannerPlugin({
             banner: `
-            
+            Commit Version : ${childProcess.execSync('git rev-parse --short HEAD')}
+            Committer : ${childProcess.execSync('git config user.name')} 
             마지막 빌드 시간 : ${new Date().toLocaleString()}
             `
         }),
