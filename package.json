@@ -1,0 +1,26 @@
+{
+  "name": "20231005",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test2": "echo \"Error: 그냥 만들어봄!\" && exit 1",
+    "cdn": "echo \"Error: 의존성 지림!\" && exit 1",
+    "node-package-manager": "echo \"직접 다운로드 + 버전관리 장점 모두 갖춤\" && exit 1",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "dotenv": "^16.3.1",
+    "html-webpack-plugin": "^5.5.3",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}
